@@ -1,0 +1,80 @@
+[
+{
+    "model": "calculator.coin",
+    "pk": 1,
+    "fields": {
+        "name": "200 z\u0142otych",
+        "subject": "30 lat PRL",
+        "country": "Poland",
+        "category": "collector coin",
+        "year_first": 1974,
+        "year_last": 1974,
+        "silver_purity": "0.625"
+    }
+},
+{
+    "model": "calculator.coin",
+    "pk": 2,
+    "fields": {
+        "name": "200 z\u0142otych",
+        "subject": "XXI Letnie Igrzyska Olimpijskie, Montreal 1976",
+        "country": "Poland",
+        "category": "collector coin",
+        "year_first": 1976,
+        "year_last": 1976,
+        "silver_purity": "0.625"
+    }
+},
+{
+    "model": "calculator.coin",
+    "pk": 3,
+    "fields": {
+        "name": "\u00bc dolara",
+        "subject": "\u0106wier\u0107dolar\u00f3wka Waszyngtona",
+        "country": "USA",
+        "category": "circulation coin",
+        "year_first": 1932,
+        "year_last": 1964,
+        "silver_purity": "0.625"
+    }
+},
+{
+    "model": "calculator.coin",
+    "pk": 4,
+    "fields": {
+        "name": "5 frank\u00f3w",
+        "subject": "",
+        "country": "France",
+        "category": "circulation coin",
+        "year_first": 1932,
+        "year_last": 1964,
+        "silver_purity": "0.835"
+    }
+},
+{
+    "model": "calculator.coin",
+    "pk": 5,
+    "fields": {
+        "name": "10 frank\u00f3w",
+        "subject": "",
+        "country": "France",
+        "category": "circulation coin",
+        "year_first": 1964,
+        "year_last": 1973,
+        "silver_purity": "0.900"
+    }
+},
+{
+    "model": "calculator.coin",
+    "pk": 6,
+    "fields": {
+        "name": "50 kopiejek",
+        "subject": "",
+        "country": "Russia",
+        "category": "circulation coin",
+        "year_first": 1895,
+        "year_last": 1914,
+        "silver_purity": "0.900"
+    }
+}
+]
