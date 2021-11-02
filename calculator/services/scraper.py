@@ -5,13 +5,6 @@ import requests
 import unicodedata
 
 
-# html_text = requests.get('https://pl.ucoin.net/coin/ajman-1-riyal-1969/?tid=87655')
-# soup =BeautifulSoup (html_text.text, features="lxml")
-
-# def cleanHTML(data):
-#     soup = BeautifulSoup(data)
-#     for text in soup.find_all
-
 url = 'https://pl.ucoin.net/catalog/?year=1865-2022&composition=189'
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"}
 
@@ -31,6 +24,10 @@ def scrap_data():
         print(name)
         year_list=name.split(',')
         year_list = year_list[1].split('-')
+        if (len(year_list)) == 1 :
+            print(year_list[0])
+        if (len(year_list)) == 2:
+            print(year_list[0], year_list[1])
         # if year list len remove if coś tam metoda do wyjęcia z listy 
         print('year list', year_list) 
         # print(table_coin)
